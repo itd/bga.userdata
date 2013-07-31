@@ -6,14 +6,14 @@ version = '1.0'
 setup(name='bga.userdata',
       version=version,
       description="Extra user data fields.",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
-        "Framework :: Plone",
-        "Programming Language :: Python",
-        ],
+          "Framework :: Plone",
+          "Programming Language :: Python",
+      ],
       keywords='plone, member',
       author='Kurt Bendl',
       author_email='kurt@tool.net',
@@ -35,4 +35,4 @@ setup(name='bga.userdata',
       """,
       setup_requires=["PasteScript"],
       paster_plugins=["ZopeSkel"],
-      )
+)
